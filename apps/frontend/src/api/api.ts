@@ -1,6 +1,5 @@
 import axios from "axios";
 
-// Check if the app is running in production mode
 const isProd = import.meta.env.MODE === "production";
 
 export const api = axios.create({
