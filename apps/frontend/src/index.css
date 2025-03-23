@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Your custom styles go here */
+
+/* ... */
+html {
+  scrollbar-gutter: stable;
+  scroll-behavior: smooth;
+}
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+}
